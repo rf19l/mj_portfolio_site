@@ -22,23 +22,47 @@ code {
   border-radius: 10px;
   width: 300px;
   height: 480px;
-  box-shadow: 0px 0px 3px 1px #ccc;
+  box-shadow: 0 0 3px 1px #ccc;
 }
 
 
 .g-card-info {
+  display: block;
   margin-top: 10px;
   min-height: 100px;
+  text-align: center;
 }
 
 
 .g-card-title {
   font-size: 24px;
-  margin: 0px;
+  margin: 0;
 }
 
 
 .g-card-sub-title {
   font-size: 16px;
-  margin: 0px;
+  margin: 0;
+}
+
+.about-body{
+  min-height:60vh;
+}
+
+.nav-custom{
+  min-height:10vh;
+}
+
+.footer-height{
+  min-height: 10vh;
+}
+
+.success-msg{
+  color: #57A773;
+  padding: 10px 15px
+}
+
+.failure-msg{
+  color: #EE6352;
+  padding: 10px 15px
 }

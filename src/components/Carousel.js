@@ -70,8 +70,8 @@ class Carousel extends React.Component {
 
     render() {
         return(
-            <Container fluid={true} className={""}>
-                <Col className="">
+            <Container fluid={true} className={"justify-content-center align-items-center"}>
+                <Col className="d-flex justify-content-evenly align-items-center">
                     {this.makeItems(this.state.items)}
                 </Col>
             </Container>

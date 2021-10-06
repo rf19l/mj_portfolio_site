@@ -37,9 +37,9 @@ class App extends React.Component{
   render(){
     return(
         <Router>
-          <Container className="p=0" fluid={true}>
+          <Container className="p=0 " fluid={true}>
 
-            <Navbar className="border-bottom" bg="transparent" expand="lg">
+            <Navbar className="border-bottom nav-custom" bg="transparent" expand="lg">
               <Navbar.Brand> Name Goes Here </Navbar.Brand>
 
               <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />

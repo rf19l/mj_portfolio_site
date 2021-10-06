@@ -6,7 +6,7 @@ import Content from '../components/Content';
 function AboutPage(props) {
 
     return(
-        <div>
+        <div className={"about-body"}>
             <Hero title={props.title} />
 
             <Content>
